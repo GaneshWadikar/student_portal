@@ -1,0 +1,22 @@
+@import "./colors";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  & > * {
+    margin: 10px 0;
+    width: 280px;
+    /* color: red; */
+    cursor: pointer;
+  }
+}
+
+.link {
+  margin: 3px 0;
+  text-align: center;
+  color: $blue;
+  user-select: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,48 @@
+@import "./colors";
+
+.page {
+  padding: 10px ;
+}
+
+.container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(330px, 1fr));
+  gap: 0 20px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tab {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.img {
+  border: 1px solid $border-grey;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.top {
+  border-bottom: 1px solid #000;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.bottom {
+  font-size: 0.7;
+}

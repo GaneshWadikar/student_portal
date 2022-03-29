@@ -1,0 +1,42 @@
+@import "./colors";
+
+// .container {
+  // border: 1px solid red;
+// }
+
+.page {
+  height: 100%;
+  // border: 2px solid #ccc;
+  padding: 20px 10px;
+}
+
+.topRow {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0;
+}
+
+.subContainer {
+  padding: 10px 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.card {
+  cursor: pointer;
+  border: 1px solid darken($blue, 50%);
+  border-radius: 5px;
+  padding: 10px 10px;
+  // background-color: lighten($blue,10%);
+  background-color: darken($blue, 10%);
+  color: white;
+  // color: darken($blue,90%);
+
+  h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  p {
+    margin: 0;
+  }
+}

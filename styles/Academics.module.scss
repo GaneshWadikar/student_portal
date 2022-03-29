@@ -1,0 +1,40 @@
+.container {
+  padding: 20px 10px;
+  width: 90%;
+  margin: 10px auto;
+  max-width: 1400px;
+
+  & > div {
+    margin: 20px 0;
+  }
+}
+
+.addBox {
+  margin-left: 5%;
+  display: flex;
+  gap: 15px;
+}
+
+.box {
+  padding: 20px 10px;
+  width: 90%;
+  margin: 10px auto;
+  gap: 10px;
+  max-width: 1400px;
+  display: flex;
+  & > * {
+    width: 100%;
+  }
+}
+
+.subject_box {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 15px;
+  width: 100%;
+  align-items: center;
+}

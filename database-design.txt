@@ -1,0 +1,72 @@
+[student]
+    -urn (p)
+    -password
+
+[information]
+    -urn (p)
+    -name
+    -division
+    -roll
+    -branch
+    -guardian_name
+    -guardian_occupation
+    -seat_allocation
+    -dob
+    -blood_group
+    -mother_tongue
+    -year_of_admission
+    -adhar_number
+    -staying_with
+    -address
+    -mobile_number
+    -guardian_mobile_number
+    -email
+    -hobby
+    -strength
+    -special_achievement
+    -profile_pic
+    
+[earlier_education]
+    -urn (c)
+    -board (c)
+    -year
+    -mark
+    -medium
+    -place_of_study
+    
+[suggestion]
+    -urn (c)
+    -sem (c)
+    -suggestion
+    
+[performance]
+    -urn (c)
+    -sem (c)
+    -remark
+    
+[performance_subject]
+    -urn (c)
+    -sem (c)
+    -subject_name
+    -ise_1
+    -ise_2
+    -mse
+    -ese
+    
+[problems]
+    -urn (c)
+    -sem (c)
+    -attendance
+    -p1
+    -p2
+    -p3
+    -p4
+    -p5
+    -p6
+    -p7
+    -p8
+    
+[teacher]
+    -name
+    -trn
+    -password
